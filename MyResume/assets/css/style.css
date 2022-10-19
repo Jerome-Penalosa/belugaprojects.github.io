@@ -363,20 +363,34 @@ h6 {
   width: 10rem;
 }
 
-.btn-danger {
+.btn-primary {
   background: rgb(63, 57, 57);
+}
+
+.btn-primary:hover {
+  background: transparent;
+}
+
+.btn-primary-override {
+  letter-spacing: 0.10rem;
+}
+
+.btn-primary-override:hover {
+  color: black;
+}
+
+.btn-danger {
+  background: #0563bb;
+  border-color: #0563bb;
 }
 
 .btn-danger:hover {
   background: transparent;
-}
-
-.btn-danger-override {
-  letter-spacing: 0.10rem;
+  color: black;
 }
 
 .btn-danger-override:hover {
-  color: black;
+  color: #0563bb;
 }
 
 .modal-dialog {
