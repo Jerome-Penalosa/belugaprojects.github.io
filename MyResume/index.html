@@ -50,8 +50,9 @@
   
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Jerome P.</h1>
-      <p>aka Beluga - I'm a <span class="typed" data-typed-items="Web Developer, Freelancer, Designer, Gamer, Cat"></span></p>
+      <p>Hello, my name is</p>
+      <h1>Jerome Peñalosa</h1>
+      <p>and I'm a <span class="typed" data-typed-items="Web Developer, Freelancer, Designer, QA Engineer"></span></p>
       <div class="social-links">
         <a href="https://twitter.com/Aguleb3000" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/Iyomnyo" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -59,8 +60,36 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="youtube"><i class="bx bxl-youtube"></i></a>
         <a href="https://discord.gg/2Pj8mGwpgF" class="discord"><i class="bx bxl-discord"></i></a>
       </div>
+      <button id="btnRemindMe" class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Hire me!</button>
     </div>
   </section>
+  <!--modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Hire me!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Your Email:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <main id="main">
 
